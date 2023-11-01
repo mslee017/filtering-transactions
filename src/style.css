@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-left: 20px;
+  width: 300px;
+}
+
+.user-input {
+  outline: none;
+  width: 100%;
+}
+
+.transaction-section {
+  border-bottom: 1px solid lightgrey;
+}
+
+.transaction-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-sum {
+  font-size: 20px;
+}
